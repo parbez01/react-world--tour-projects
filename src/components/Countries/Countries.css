@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.visited {
+    background-color: deeppink;
+}
+
+.non-visited {
+    background-color: violet;
+}
+
+.flag img {
+    width: 100px;
+}
